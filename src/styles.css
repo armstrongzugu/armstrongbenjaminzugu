@@ -23,7 +23,7 @@ a { color: inherit; text-decoration: none; }
 button { color: inherit; font: inherit; }
 
 .site-shell { min-height: 100vh; overflow: hidden; position: relative; isolation: isolate; }
-.site-shell::before { content: ''; position: fixed; inset: 0; z-index: -3; background: linear-gradient(115deg, rgba(239,232,220,.98) 3%, rgba(239,232,220,.78) 44%, rgba(239,232,220,.4) 100%), url('/manus-storage/async-images/lt1scjcbzGrbDG5Ui5cdqq/image-1.webp') center right / cover no-repeat; filter: saturate(.75); transform: translate3d(var(--bg-x, 0px), var(--bg-y, 0px), 0) scale(1.04); transition: transform 900ms cubic-bezier(.2,.8,.2,1); }
+.site-shell::before { content: ''; position: fixed; inset: 0; z-index: -3; background: linear-gradient(115deg, rgba(239,232,220,.98) 3%, rgba(239,232,220,.78) 44%, rgba(239,232,220,.4) 100%), url('./shakespeare-sketch.webp') center right / cover no-repeat; filter: saturate(.75); transform: translate3d(var(--bg-x, 0px), var(--bg-y, 0px), 0) scale(1.04); transition: transform 900ms cubic-bezier(.2,.8,.2,1); }
 .site-shell::after { content: ''; position: fixed; inset: 0; z-index: -2; pointer-events: none; opacity: .16; background-image: url("data:image/svg+xml,%3Csvg width='96' height='96' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%231d3442' stroke-width='1' opacity='.45'%3E%3Cpath d='M0 16h24L36 4l12 12 12-12 12 12h24M0 80h24L36 68l12 12 12-12 12 12h24M16 0v24L4 36l12 12L4 60l12 12V96M80 0v24L68 36l12 12-12 12 12 12V96'/%3E%3C/g%3E%3C/svg%3E"); mix-blend-mode: multiply; }
 
 .container { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
