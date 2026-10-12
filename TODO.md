@@ -13,6 +13,8 @@
 - [x] The primary credit is Creative writing by Benjamin Armstrong Zugu.
 - [x] Published by Egwuatu Demion Ikenna is present only as a small, quiet secondary credit.
 - [x] A print-ready PDF brochure is available from the reader page.
+- [x] The former gold/yellow/coral accent palette is removed and replaced with wine red and bright rose text accents.
+- [x] Portfolio work cards and archive containers use transparent backgrounds instead of the removed colored fill.
 - [x] The site retains the Tiv/Benue visual language, moving Shakespeare sketch on the portfolio, dark contrast canvas, and reduced-motion support.
 - [x] The site remains responsive on mobile and laptop.
 - [ ] Add each additional story or poem supplied by the user as a separate body-of-work reading page.
