@@ -63,8 +63,7 @@ app.innerHTML = `
 
 const canMove = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
-  if (entry.isIntersecting) entry.target.classList.add('is-active');
-  else if (entry.boundingClientRect.top > 0) entry.target.classList.remove('is-active');
+  entry.target.classList.toggle('is-active', entry.isIntersecting);
 }), { threshold: 0.42 });
 document.querySelectorAll('.scene, .work-scene').forEach((element) => observer.observe(element));
 
