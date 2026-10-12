@@ -48,7 +48,7 @@ app.innerHTML = `
 
       <section class="about scene" id="about" aria-labelledby="about-title">
         <div class="scene-caption"><span>04</span><span>the author</span></div>
-        <div class="about-center"><p class="overline">A short note</p><h2 id="about-title">Benjamin Armstrong Zugu</h2><p>Writer and researcher from Benue State, Nigeria. His writing follows the meeting point of English Literature, Tiv written literature, cultural sustainability, and the forms through which communities remember.</p><a class="text-link" href="mailto:benjaminarmstrong89@gmail.com">Start a conversation ${arrow}</a></div>
+        <div class="about-center"><p class="overline">A short note</p><h2 id="about-title">Benjamin Armstrong Zugu</h2><p>Writer and researcher from Benue State, Nigeria. His writing follows the meeting point of English Literature, Tiv written literature, cultural sustainability, and the forms through which communities remember.</p><button class="contact-trigger text-link" type="button" aria-expanded="false" aria-controls="contact-options">Start a conversation ${arrow}</button><div class="contact-options" id="contact-options" hidden><a href="mailto:benjaminarmstrong89@gmail.com">Email Benjamin ${arrow}</a><a href="tel:+2347032129415">+234 703 212 9415 ${arrow}</a><a href="tel:+2348089010484">+234 808 901 0484 ${arrow}</a></div></div>
       </section>
 
       <section class="details scene" id="contact" aria-labelledby="details-title">
@@ -60,6 +60,14 @@ app.innerHTML = `
     <footer class="site-footer container"><span>Benjamin Armstrong Zugu / writing archive</span><a href="mailto:benjaminarmstrong89@gmail.com">benjaminarmstrong89@gmail.com ${arrow}</a></footer>
   </div>
 `;
+
+const contactTrigger = document.querySelector('.contact-trigger');
+const contactOptions = document.querySelector('#contact-options');
+contactTrigger.addEventListener('click', () => {
+  const open = contactOptions.hidden;
+  contactOptions.hidden = !open;
+  contactTrigger.setAttribute('aria-expanded', String(open));
+});
 
 const canMove = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
