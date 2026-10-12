@@ -1,13 +1,13 @@
 import './styles.css';
 
-const works = [
-  { id: '01', year: '2022', title: 'Dan-anacha Requiems', meta: 'Amazon Kindle', type: 'Book', note: 'A literary record shaped by place, loss, and the sound of memory.' },
-  { id: '02', year: '2019', title: 'God Deliver Us', meta: 'The Markas Anthology', type: 'Poem', note: 'A published poem held in an anthology of contemporary voices.' },
-  { id: '03', year: '2019', title: 'Maiduguri', meta: 'The Markas Anthology', type: 'Poem', note: 'A poem that keeps a city present through language.' },
-  { id: '04', year: '2022', title: 'Lamentations', meta: 'Echoes of the African Drums', type: 'Poem', note: 'A contribution to a collection resonant with African memory.' },
-  { id: '05', year: '2023', title: 'Perceived Roles of Radio Programmes in Sustainability of Indigenous Languages', meta: 'Research', type: 'Research', note: 'An inquiry into how language survives through shared listening.' },
-  { id: '06', year: '2024', title: 'Music, Theatre, and Creative Storytelling as Cultural Repositories', meta: 'Research', type: 'Research', note: 'A study of creative forms as containers for cultural knowledge.' },
-  { id: '07', year: '2025', title: 'Tiv Written Literature and Genres', meta: 'Research', type: 'Research', note: 'A continuing study of Tiv writing, form, and literary memory.' }
+const featuredWork = { id: '01', year: '2026', title: 'The Infested Land', meta: 'Literary brochure · Tiv story', type: 'Body of work', note: 'A story of hospitality, consequence, and the work of gathering a people back together.' };
+const earlierWorks = [
+  'Dan-anacha Requiems — Amazon Kindle (2022)',
+  'God Deliver Us · Maiduguri — The Markas Anthology (2019)',
+  'Lamentations — Echoes of the African Drums (2022)',
+  'Perceived Roles of Radio Programmes in Sustainability of Indigenous Languages (2023)',
+  'Music, Theatre, and Creative Storytelling as Cultural Repositories (2024)',
+  'Tiv Written Literature and Genres (2025)'
 ];
 
 const awards = ['Othman Abubakar Poetry Prize for Literary Creativity (2020)', 'Best Graduating Student, English & Literary Studies, University of Maiduguri (2019)'];
@@ -41,7 +41,8 @@ app.innerHTML = `
       </section>
 
       <section class="work-sequence" aria-label="Selected writing and research works">
-        ${works.map((work, index) => `<article class="work-scene scene" data-work-index="${index}"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>${work.id}</span><span>${work.type}</span><span>${work.year}</span></div><h3>${work.title}</h3><p class="work-meta">${work.meta}</p><p class="work-note">${work.note}</p><div class="work-bottom"><span>Benjamin Armstrong Zugu</span><span>Scroll to continue ${arrow}</span></div></div></article>`).join('')}
+        <article class="work-scene scene featured-work" data-work-index="0"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>${featuredWork.id}</span><span>${featuredWork.type}</span><span>${featuredWork.year}</span></div><h3>${featuredWork.title}</h3><p class="work-meta">${featuredWork.meta}</p><p class="work-note">${featuredWork.note}</p><div class="work-bottom"><span>Creative writing by Benjamin Armstrong Zugu</span><a class="read-cta" href="./the-infested-land/">Click to read ${arrow}</a></div></div></article>
+        <article class="work-scene scene archive-work" data-work-index="1"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>02</span><span>Earlier work</span><span>Archive</span></div><h3>Other work,<br /><em>kept together.</em></h3><p class="work-note">The archive continues through poems, research, and books already recorded in Benjamin’s writing life.</p><ul class="work-archive-list">${earlierWorks.map((item) => `<li>${item}</li>`).join('')}</ul><div class="work-bottom"><span>Body of work</span><span>Scroll to continue ${arrow}</span></div></div></article>
       </section>
 
       <section class="interlude scene" aria-label="Writing statement"><div class="scene-caption"><span>03</span><span>the thread</span></div><div class="interlude-copy"><p class="overline">Between the lines</p><p class="interlude-quote">“Writing is where research becomes memory.”</p><p class="interlude-small">A practice grounded in literature, indigenous language, and the cultural imagination of Benue.</p></div></section>

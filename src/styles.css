@@ -59,6 +59,11 @@ h2 em { color:var(--indigo); font-style:italic; }
 .work-note { color:var(--muted); font-size:12px; line-height:1.7; margin:24px 0 30px; max-width:360px; }
 .work-bottom { border-top:1px solid var(--line); padding-top:14px; }
 .work-bottom span:last-child { align-items:center; display:flex; gap:7px; }
+.read-cta { align-items:center; color:var(--accent-hot); display:flex; gap:7px; }
+.read-cta:hover,.read-cta:focus-visible { color:var(--ink); }
+.work-archive-list { color:var(--muted); display:grid; font-size:10px; gap:8px; line-height:1.45; list-style:none; margin:0 0 26px; padding:0; }
+.work-archive-list li { border-left:1px solid rgba(242,189,85,.55); padding-left:10px; }
+.archive-work .work-card h3 { margin-bottom:20px; }
 @keyframes orbit-in { from { opacity:0; transform:rotate(4deg) scaleY(.25) scaleX(.8); } to { opacity:1; } }
 .interlude { align-items:center; display:flex; justify-content:center; text-align:center; }
 .interlude-copy { max-width:710px; }
