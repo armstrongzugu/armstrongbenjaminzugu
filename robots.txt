@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://armstrongzugu.github.io/armstrongbenjaminzugu/sitemap.xml
