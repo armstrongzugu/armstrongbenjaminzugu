@@ -6,7 +6,7 @@ Typography remains limited to EB Garamond/Garamond for literary display text and
 
 ## Body of work categories
 
-The main archive presents four compact stages: **Short cultural story** for *The Infested Land*, **Published book** for *Dan-Anacha Requiems*, **Poems** for the supplied ten-poem collection, and a grouped archive for the remaining books and research. The supplied title and author are confirmed by Goodreads. Its Goodreads-provided Amazon ASIN currently returns Amazon Page Not Found, so the book card uses a live Amazon title search instead of sending visitors to a broken product page. A true affiliate CTA should replace the search link only after the author supplies a current Amazon product or Associates link.
+The main archive presents four compact stages: **Short cultural story** for *The Infested Land*, **Published book** for *Dan-Anacha Requiems*, **Poems** for the supplied ten-poem collection, and a grouped archive for the remaining books and research. The supplied title, cover, author, and Goodreads record are confirmed. The published-book CTA now points to the exact Goodreads destination requested by the author: `https://www.goodreads.com/book/show/62081952-dan-anacha-requiems#CommunityReviews`.
 
 The Poems category has its own reader route at `/poems/`. Each of the ten supplied poems is presented as a separate numbered entry: Dan-anacha I, Dan-anacha II, Maiduguri, Forewarned, Election, Hypocrisy?, Saints, The Reverend Politician, Grey, and Kpatu. The supplied wording, line breaks, quotations, and Tiv references are preserved.
 
