@@ -8,6 +8,9 @@
 - [x] The Infested Land has a **Click to read** CTA and a dedicated reader route.
 - [x] The supplied ten-poem collection has a dedicated **Poems** category and reader route.
 - [x] Each supplied poem appears as its own numbered entry in the Poems reader.
+- [x] Dan-Anacha Requiems appears as a separate **Published book** work with the verified cover and author credit.
+- [x] The Published book card has a **Buy my Book** CTA that opens a live Amazon title search.
+- [x] The Goodreads-provided ASIN was checked and not used as a direct CTA because Amazon currently returns Page Not Found for it.
 - [x] The poem wording, line breaks, quotations, and Tiv references are preserved from the supplied document.
 - [x] Earlier books and research remain grouped into one compact archive card.
 - [x] Each public route has a route-specific title, description, canonical URL, Open Graph tags, Twitter card tags, keywords, and JSON-LD structured data.

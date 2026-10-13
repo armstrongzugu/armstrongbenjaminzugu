@@ -6,13 +6,13 @@ Typography remains limited to EB Garamond/Garamond for literary display text and
 
 ## Body of work categories
 
-The main archive presents three compact stages: **Short cultural story** for *The Infested Land*, **Poems** for the supplied ten-poem collection, and a grouped archive for the remaining books and research. The story remains titled *The Infested Land* inside its dedicated reader, but its work category is explicitly labeled Short cultural story.
+The main archive presents four compact stages: **Short cultural story** for *The Infested Land*, **Published book** for *Dan-Anacha Requiems*, **Poems** for the supplied ten-poem collection, and a grouped archive for the remaining books and research. The supplied title and author are confirmed by Goodreads. Its Goodreads-provided Amazon ASIN currently returns Amazon Page Not Found, so the book card uses a live Amazon title search instead of sending visitors to a broken product page. A true affiliate CTA should replace the search link only after the author supplies a current Amazon product or Associates link.
 
 The Poems category has its own reader route at `/poems/`. Each of the ten supplied poems is presented as a separate numbered entry: Dan-anacha I, Dan-anacha II, Maiduguri, Forewarned, Election, Hypocrisy?, Saints, The Reverend Politician, Grey, and Kpatu. The supplied wording, line breaks, quotations, and Tiv references are preserved.
 
 ## Search and AI discoverability
 
-All three public routes now have route-specific titles, descriptions, keywords, canonical URLs, Open Graph metadata, Twitter card metadata, and JSON-LD structured data. The home page has crawler-visible HTML content before JavaScript runs and clearly describes Benjamin as a Nigerian writer of Tiv culture, poems, short cultural stories, and cultural-sustainability research. The story and Poems routes have their own public work schemas and links back to the author page.
+All three public routes have route-specific titles, descriptions, keywords, canonical URLs, Open Graph metadata, Twitter card metadata, and JSON-LD structured data. The home page has crawler-visible HTML content before JavaScript runs and clearly describes Benjamin as a Nigerian writer of Tiv culture, poems, short cultural stories, and cultural-sustainability research. The story and Poems routes have their own public work schemas and links back to the author page.
 
 `public/sitemap.xml` lists the portfolio, Poems, and Short cultural story URLs. `public/robots.txt` allows public indexing and points crawlers to the sitemap. These changes improve eligibility for Google and AI retrieval; they do not guarantee ranking or inclusion in any search or AI answer.
 
