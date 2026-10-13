@@ -6,7 +6,7 @@
 - [x] The works are the visual center of the website, with featured literary work presented as scroll scenes.
 - [x] The Infested Land is labeled as a **Short cultural story** while retaining its title in the reader.
 - [x] The Infested Land has a **Click to read** CTA and a dedicated reader route.
-- [x] The supplied eleven-poem collection has a dedicated **Poems** category and reader route.
+- [x] The supplied ten-poem collection has a dedicated **Poems** category and reader route.
 - [x] Each supplied poem appears as its own numbered entry in the Poems reader.
 - [x] The poem wording, line breaks, quotations, and Tiv references are preserved from the supplied document.
 - [x] Earlier books and research remain grouped into one compact archive card.

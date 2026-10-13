@@ -6,9 +6,9 @@ Typography remains limited to EB Garamond/Garamond for literary display text and
 
 ## Body of work categories
 
-The main archive now presents three compact stages: **Short cultural story** for *The Infested Land*, **Poems** for the supplied eleven-poem collection, and a grouped archive for the remaining books and research. The existing story remains titled *The Infested Land* inside its dedicated reader, but its work category is explicitly labeled Short cultural story.
+The main archive now presents three compact stages: **Short cultural story** for *The Infested Land*, **Poems** for the supplied ten-poem collection, and a grouped archive for the remaining books and research. The existing story remains titled *The Infested Land* inside its dedicated reader, but its work category is explicitly labeled Short cultural story.
 
-The Poems category has its own reader route at `/poems/`. Each of the eleven supplied poems is presented as a separate numbered entry: Dan-anacha I, Dan-anacha II, Maiduguri, Forewarned, Election, Hypocrisy?, Saints, The Reverend Politician, Grey, and Kpatu. The supplied wording, line breaks, quotations, and Tiv references are preserved. The page uses the same ivory/gold/bronze system and Garamond/Montserrat typography, with no generated imagery required.
+The Poems category has its own reader route at `/poems/`. Each of the ten supplied poems is presented as a separate numbered entry: Dan-anacha I, Dan-anacha II, Maiduguri, Forewarned, Election, Hypocrisy?, Saints, The Reverend Politician, Grey, and Kpatu. The supplied wording, line breaks, quotations, and Tiv references are preserved. The page uses the same ivory/gold/bronze system and Garamond/Montserrat typography, with no generated imagery required.
 
 ## The Infested Land brochure
 
