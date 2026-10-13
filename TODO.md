@@ -10,6 +10,11 @@
 - [x] Each supplied poem appears as its own numbered entry in the Poems reader.
 - [x] The poem wording, line breaks, quotations, and Tiv references are preserved from the supplied document.
 - [x] Earlier books and research remain grouped into one compact archive card.
+- [x] Each public route has a route-specific title, description, canonical URL, Open Graph tags, Twitter card tags, keywords, and JSON-LD structured data.
+- [x] The home page contains meaningful crawler-visible author and archive content before JavaScript executes.
+- [x] The author is clearly described as a Nigerian writer of Tiv culture, poems, short cultural stories, and cultural-sustainability research.
+- [x] `sitemap.xml` lists the public portfolio, Poems, and Short cultural story routes.
+- [x] `robots.txt` allows public crawling and points to the sitemap.
 - [x] The brochure uses the same EB Garamond/Garamond and Montserrat typography system.
 - [x] The brochure uses lightweight inline silhouette SVG illustrations rather than credit-intensive generated imagery.
 - [x] The primary credit is Creative writing by Benjamin Armstrong Zugu.
