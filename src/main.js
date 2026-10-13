@@ -1,10 +1,9 @@
 import './styles.css';
 
-const featuredWork = { id: '01', year: '2026', title: 'The Infested Land', meta: 'Literary brochure · Tiv story', type: 'Body of work', note: 'A story of hospitality, consequence, and the work of gathering a people back together.' };
+const featuredWork = { id: '01', year: '2026', title: 'The Infested Land', meta: 'The Infested Land · Tiv story', type: 'Short cultural story', note: 'A story of hospitality, consequence, and the work of gathering a people back together.' };
 const earlierWorks = [
   'Dan-anacha Requiems — Amazon Kindle (2022)',
   'God Deliver Us · Maiduguri — The Markas Anthology (2019)',
-  'Lamentations — Echoes of the African Drums (2022)',
   'Perceived Roles of Radio Programmes in Sustainability of Indigenous Languages (2023)',
   'Music, Theatre, and Creative Storytelling as Cultural Repositories (2024)',
   'Tiv Written Literature and Genres (2025)'
@@ -42,7 +41,8 @@ app.innerHTML = `
 
       <section class="work-sequence" aria-label="Selected writing and research works">
         <article class="work-scene scene featured-work" data-work-index="0"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>${featuredWork.id}</span><span>${featuredWork.type}</span><span>${featuredWork.year}</span></div><h3>${featuredWork.title}</h3><p class="work-meta">${featuredWork.meta}</p><p class="work-note">${featuredWork.note}</p><div class="work-bottom"><span>Creative writing by Benjamin Armstrong Zugu</span><a class="read-cta" href="./the-infested-land/">Click to read ${arrow}</a></div></div></article>
-        <article class="work-scene scene archive-work" data-work-index="1"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>02</span><span>Earlier work</span><span>Archive</span></div><h3>Other work,<br /><em>kept together.</em></h3><p class="work-note">The archive continues through poems, research, and books already recorded in Benjamin’s writing life.</p><ul class="work-archive-list">${earlierWorks.map((item) => `<li>${item}</li>`).join('')}</ul><div class="work-bottom"><span>Body of work</span><span>Scroll to continue ${arrow}</span></div></div></article>
+        <article class="work-scene scene poems-work" data-work-index="1"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>02</span><span>Poems</span><span>11 works</span></div><h3>Poems<br /><em>of place.</em></h3><p class="work-meta">Dan-anacha · Maiduguri · Tiv dance</p><p class="work-note">Eleven poems on place, violence, faith, politics, memory, and the cultural life of home.</p><div class="work-bottom"><span>Body of work</span><a class="read-cta" href="./poems/">Read poems ${arrow}</a></div></div></article>
+        <article class="work-scene scene archive-work" data-work-index="2"><div class="work-orbit" aria-hidden="true"><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-dot"></span></div><div class="work-card"><div class="work-top"><span>03</span><span>Earlier work</span><span>Archive</span></div><h3>Other work,<br /><em>kept together.</em></h3><p class="work-note">The archive continues through books and research already recorded in Benjamin’s writing life.</p><ul class="work-archive-list">${earlierWorks.map((item) => `<li>${item}</li>`).join('')}</ul><div class="work-bottom"><span>Body of work</span><span>Scroll to continue ${arrow}</span></div></div></article>
       </section>
 
       <section class="interlude scene" aria-label="Writing statement"><div class="scene-caption"><span>03</span><span>the thread</span></div><div class="interlude-copy"><p class="overline">Between the lines</p><p class="interlude-quote">“Writing is where research becomes memory.”</p><p class="interlude-small">A practice grounded in literature, indigenous language, and the cultural imagination of Benue.</p></div></section>

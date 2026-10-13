@@ -3,19 +3,20 @@
 - [x] The portfolio prominently features **BENJAMIN ARMSTRONG ZUGU** as the opening headline.
 - [x] Teaching, tutoring, classroom, and departmental career information is removed from the public portfolio.
 - [x] The visible content is centered on writing: book work, poems, literary research, cultural language research, and literary recognition.
-- [x] The works are the visual center of the website, with the featured literary work presented as its own scroll scene.
-- [x] Earlier publications and research are grouped into one compact archive card instead of separate history cards.
-- [x] The Infested Land is labeled under **Body of work** and has a **Click to read** CTA.
-- [x] The Click to read CTA opens a dedicated full-page brochure reader at `/the-infested-land/`.
-- [x] The brochure uses the same EB Garamond/Garamond and Montserrat typography system as the portfolio.
+- [x] The works are the visual center of the website, with featured literary work presented as scroll scenes.
+- [x] The Infested Land is labeled as a **Short cultural story** while retaining its title in the reader.
+- [x] The Infested Land has a **Click to read** CTA and a dedicated reader route.
+- [x] The supplied eleven-poem collection has a dedicated **Poems** category and reader route.
+- [x] Each supplied poem appears as its own numbered entry in the Poems reader.
+- [x] The poem wording, line breaks, quotations, and Tiv references are preserved from the supplied document.
+- [x] Earlier books and research remain grouped into one compact archive card.
+- [x] The brochure uses the same EB Garamond/Garamond and Montserrat typography system.
 - [x] The brochure uses lightweight inline silhouette SVG illustrations rather than credit-intensive generated imagery.
-- [x] The brochure preserves the supplied story’s Tiv cultural terms, dialogue, translations, and narrative arc.
 - [x] The primary credit is Creative writing by Benjamin Armstrong Zugu.
 - [x] Published by Egwuatu Demion Ikenna is present only as a small, quiet secondary credit.
-- [x] A print-ready PDF brochure is available from the reader page.
-- [x] The final palette is ivory-white text with gold primary accents and a restrained bronze accent.
-- [x] Wine red, rose red, coral, and the previous red accent system are removed.
+- [x] A print-ready PDF brochure is available from the story reader.
+- [x] The final palette is ivory-white text with gold primary accents and restrained bronze details.
 - [x] Portfolio work cards and archive containers use transparent backgrounds.
 - [x] The site retains the Tiv/Benue visual language, moving Shakespeare sketch on the portfolio, dark contrast canvas, and reduced-motion support.
 - [x] The site remains responsive on mobile and laptop.
-- [ ] Add each additional story or poem supplied by the user as a separate body-of-work reading page.
+- [ ] Add each additional story supplied by the user as a separate short cultural story reader.
