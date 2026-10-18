@@ -12,6 +12,12 @@ const earlierWorks = [
 const awards = ['Othman Abubakar Poetry Prize for Literary Creativity (2020)', 'Best Graduating Student, English & Literary Studies, University of Maiduguri (2019)'];
 const affiliations = ['Literature Secretary, NACAFSEEL (2019)', 'Secretary General, NASELS (2019)', 'Secretary General, NUBESS (2019)'];
 const arrow = '<span aria-hidden="true">↗</span>';
+const icons = {
+  mail: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3zM3.5 6l8.5 7 8.5-7" /></svg>',
+  whatsapp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.2 13L3.5 20.5l4.2-1.3A8.5 8.5 0 1 0 12 3.5Z" /><path d="M8.7 8.3c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.7 1.2 1.6 2 2.8 2.6l.5-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6-.2.8-.8 1.3-1.5 1.3-2.1-.1-5.9-3.1-6.5-6.1-.1-.5.1-1 .5-1.3Z" /></svg>',
+  phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.5 5 4.8c-.7.4-.9 1.3-.6 2.1 1.7 4.5 4.6 7.4 9.1 9.1.8.3 1.7.1 2.1-.6l1.3-2.2-3.2-2.2-1.5 1.5a11.4 11.4 0 0 1-3.3-3.3l1.5-1.5-2.2-3.2Z" /></svg>',
+  linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8.5H2.5v10H5v-10ZM3.8 3.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM8 8.5h2.4v1.4h.1c.3-.8 1.3-1.7 2.8-1.7 3 0 3.5 2 3.5 4.6v5.7h-2.5v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.1H8v-10Z" /></svg>'
+};
 const app = document.querySelector('#app');
 
 app.innerHTML = `
@@ -50,7 +56,7 @@ app.innerHTML = `
 
       <section class="about scene" id="about" aria-labelledby="about-title">
         <div class="scene-caption"><span>04</span><span>the author</span></div>
-        <div class="about-center"><p class="overline">A short note</p><h2 id="about-title">Benjamin Armstrong Zugu</h2><p>Writer and researcher from Benue State, Nigeria. His writing follows the meeting point of English Literature, Tiv written literature, cultural sustainability, and the forms through which communities remember.</p><button class="contact-trigger text-link" type="button" aria-expanded="false" aria-controls="contact-options">Start a conversation ${arrow}</button><div class="contact-options" id="contact-options" hidden><a href="mailto:benjaminarmstrong89@gmail.com">Email Benjamin ${arrow}</a><a href="tel:+2347032129415">+234 703 212 9415 ${arrow}</a><a href="tel:+2348089010484">+234 808 901 0484 ${arrow}</a></div></div>
+        <div class="about-center"><p class="overline">A short note</p><h2 id="about-title">Benjamin Armstrong Zugu</h2><p>Writer and researcher from Benue State, Nigeria. His writing follows the meeting point of English Literature, Tiv written literature, cultural sustainability, and the forms through which communities remember.</p><button class="contact-trigger text-link" type="button" aria-expanded="false" aria-controls="contact-options">Start a conversation ${arrow}</button><div class="contact-options" id="contact-options" hidden><a class="contact-option" href="mailto:benjaminarmstrong89@gmail.com" aria-label="Email Benjamin Armstrong Zugu" title="Email Benjamin Armstrong Zugu"><span class="contact-icon">${icons.mail}</span><span class="contact-label">Email</span></a><a class="contact-option" href="https://wa.me/2347032129415" target="_blank" rel="noopener" aria-label="Message Benjamin Armstrong Zugu on WhatsApp" title="WhatsApp"><span class="contact-icon">${icons.whatsapp}</span><span class="contact-label">WhatsApp</span></a><a class="contact-option" href="tel:+2347032129415" aria-label="Call Benjamin Armstrong Zugu" title="Phone"><span class="contact-icon">${icons.phone}</span><span class="contact-label">Phone</span></a><a class="contact-option" href="https://ng.linkedin.com/in/benjamin-zugu-289068445" target="_blank" rel="noopener" aria-label="Open Benjamin Armstrong Zugu on LinkedIn" title="LinkedIn"><span class="contact-icon">${icons.linkedin}</span><span class="contact-label">LinkedIn</span></a></div></div>
       </section>
 
       <section class="details scene" id="contact" aria-labelledby="details-title">
@@ -59,7 +65,7 @@ app.innerHTML = `
       </section>
     </main>
 
-    <footer class="site-footer container"><span>Benjamin Armstrong Zugu / writing archive</span><a href="mailto:benjaminarmstrong89@gmail.com">benjaminarmstrong89@gmail.com ${arrow}</a></footer>
+    <footer class="site-footer container"><span>Benjamin Armstrong Zugu / writing archive</span><div class="footer-links"><a href="mailto:benjaminarmstrong89@gmail.com" aria-label="Email Benjamin Armstrong Zugu" title="Email">${icons.mail}</a><a href="https://ng.linkedin.com/in/benjamin-zugu-289068445" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">${icons.linkedin}</a></div></footer>
   </div>
 `;
 
